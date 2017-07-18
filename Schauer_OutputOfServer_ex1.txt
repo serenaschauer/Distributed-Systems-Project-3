@@ -1,0 +1,121 @@
+------------------------------------------------
+-- Server
+------------------------------------------------
+Creating server socket on port 81 on Host localhost
+ClientHelper was created.
+ClientHelper was created.
+ClientHelper was created.
+ClientHelper 1: is running
+ClientHelper was created.
+ClientHelper was created.
+ClientHelper 2: is running
+ClientHelper 3: is running
+ClientHelper 4: is running
+ClientHelper 1: This thread is a Student
+ClientHelper 4: This thread is a Student
+Created Student 1
+ClientHelper 1: Student about to start method 0 -- Waiting in ClassroomLine
+Student: [8] Student 1 : ---- waiting in class room line. ----  room door is closed so wait....
+Created Student 4
+ClientHelper 5: is running
+ClientHelper 3: This thread is a Student
+Created Student 3
+ClientHelper 3: Student about to start method 0 -- Waiting in ClassroomLine
+Student: [8] Student 3 : ---- waiting in class room line. ----  room door is closed so wait....
+ClientHelper 4: Student about to start method 0 -- Waiting in ClassroomLine
+Student: [9] Student 4 : ---- waiting in class room line. ----  room door is closed so wait....
+ClientHelper 5: This thread is a Student
+Created Student 5
+ClientHelper 5: Student about to start method 0 -- Waiting in ClassroomLine
+Student: [10] Student 5 : ---- waiting in class room line. ----  room door is closed so wait....
+ClientHelper 2: This thread is a Student
+Created Student 2
+ClientHelper 2: Student about to start method 0 -- Waiting in ClassroomLine
+Student: [12] Student 2 : ---- waiting in class room line. ----  room door is closed so wait....
+ClientHelper was created.
+ClientHelper 6: is running
+ClientHelper 6: This thread is a Teacher
+Created Teacher 6
+ClientHelper 6: Teacher about to start method 0 -- Let students in class room
+Teacher: [404] Teacher 6 : This is for Exam Number: 0
+Teacher: [404] Teacher 6 : Lets students enter the room.
+ClientHelper 6: Teacher completed method 0 -- Let students in class room
+Student: [404] Student 2 : Now enters the room.
+ClientHelper 6: Teacher about to start method 1 -- Hand Out Exams
+Student: [404] Student 5 : Now enters the room.
+ClientHelper 5: Student completed method 0 -- Waiting in ClassRoomLine
+ClientHelper 5: Student about to start method 1 -- takes seats
+ClientHelper 2: Student completed method 0 -- Waiting in ClassRoomLine
+Student: [414] Student 5 : is waiting to start test.
+Student: [414] Student 4 : Now enters the room.
+ClientHelper 2: Student about to start method 1 -- takes seats
+Student: [414] Student 3 : ---- waiting in class room line. ---- capacity over so wait.... studentsInRoom = 3
+ClientHelper 4: Student completed method 0 -- Waiting in ClassRoomLine
+Student: [414] Student 1 : ---- waiting in class room line. ---- capacity over so wait.... studentsInRoom = 3
+Student: [414] Student 2 : is waiting to start test.
+ClientHelper 4: Student about to start method 1 -- takes seats
+Student: [414] Student 4 : is waiting to start test.
+Teacher: [1578] Teacher 6 : Closed the doors.
+Teacher: [1578] Teacher 6 : 15 minutes is up.
+Teacher: [1578] Teacher 6 : Handed out exams.
+ClientHelper 6: Teacher completed method 1 -- Hand Out Exams
+ClientHelper 6: Teacher about to start method 2 -- Wait For Exam to End
+Student: [1578] Student 4 : was notified by teacher to start the test.
+ClientHelper 4: Student completed method 1 -- takes seats
+ClientHelper 4: Student about to start method 2 -- takes test
+Student: [1579] Student 2 : was notified by teacher to start the test.
+ClientHelper 2: Student completed method 1 -- takes seats
+ClientHelper 2: Student about to start method 2 -- takes test
+Student: [1579] Student 5 : was notified by teacher to start the test.
+ClientHelper 5: Student completed method 1 -- takes seats
+ClientHelper 5: Student about to start method 2 -- takes test
+Teacher: [2546] Teacher 6 : Was notified that Exam Ended.
+ClientHelper 6: Teacher completed method 2 -- Wait For Exam to End
+Student: [2546] Student 4 : Notified that Exam Ended.
+Student: [2546] Student 5 : Notified that Exam Ended.
+Student: [2546] Student 2 : Notified that Exam Ended.
+ClientHelper 2: Student completed method 2 -- takes test
+ClientHelper 5: Student completed method 2 -- takes test
+ClientHelper 6: Teacher about to start method 3 -- Check Exams
+ClientHelper 4: Student completed method 2 -- takes test
+ClientHelper 5: Student about to start method 3 -- return exam
+ClientHelper 2: Student about to start method 3 -- return exam
+Student: [2546] Student 5 : Handed teacher back exam
+ClientHelper 4: Student about to start method 3 -- return exam
+Notified techer that test was returned
+Student: [2546] Student 5 : is waiting for grade.
+Student: [2546] Student 4 : Handed teacher back exam
+Notified techer that test was returned
+Student: [2546] Student 4 : is waiting for grade.
+Student: [2546] Student 2 : Handed teacher back exam
+Notified techer that test was returned
+Student: [2546] Student 2 : is waiting for grade.
+Teacher: [2546] Teacher 6 : Is in the process of checking and grading exams.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Student: [2716] Student 2 : has been given a grade.
+ClientHelper 2: Student completed method 3 -- return exam
+ClientHelper 2: Student about to start method 4 -- leave class room
+Student: [2717] Student 2 : leaves the class room.
+ClientHelper 6: Teacher completed method 3 -- Check Exams
+ClientHelper 6: Teacher about to start method 4 -- prepair for next exam
+ClientHelper 6: Teacher completed method 4 -- prepair for next exam
+Student: [2717] Student 2 : Received grade 16
+Student: [2716] Student 4 : has been given a grade.
+ClientHelper 4: Student completed method 3 -- return exam
+ClientHelper 4: Student about to start method 4 -- leave class room
+Student: [2718] Student 4 : leaves the class room.
+Student: [2718] Student 4 : Received grade 16
+ClientHelper 4: did case 4 -- leave class room
+ClientHelper 2: did case 4 -- leave class room
+Student: [2718] Student 5 : has been given a grade.
+ClientHelper 5: Student completed method 3 -- return exam
+ClientHelper 5: Student about to start method 4 -- leave class room
+Student: [2718] Student 5 : leaves the class room.
+Student: [2718] Student 5 : Received grade 19
+-----------------------------------------------------
+Student 1 received grade 0 (because of missed test)
+Student 2 received grade 16
+Student 3 received grade 0 (because of missed test)
+Student 4 received grade 16
+Student 5 received grade 19
+-----------------------------------------------------
+ClientHelper 5: did case 4 -- leave class room

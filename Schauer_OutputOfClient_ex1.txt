@@ -1,0 +1,45 @@
+------------------------------------------------
+-- Client
+------------------------------------------------
+Creating socket to 'localhost' on port 81
+Creating socket to 'localhost' on port 81
+Creating socket to 'localhost' on port 81
+Creating socket to 'localhost' on port 81
+Creating socket to 'localhost' on port 81
+StudentClient: server says There is a connection to the server.
+StudentClient: server says There is a connection to the server.
+StudentClient 4: Sent 0 to Server
+StudentClient: server says There is a connection to the server.
+StudentClient 4: Sent 1 to Server
+StudentClient 0: Sent 0 to Server
+StudentClient 4: Sent 2 to Server
+StudentClient 3: Sent 0 to Server
+StudentClient 4: Sent 3 to Server
+StudentClient 0: Sent 1 to Server
+StudentClient 4: Sent 4 to Server
+StudentClient 3: Sent 1 to Server
+StudentClient 3: Sent 2 to Server
+StudentClient 0: Sent 2 to Server
+StudentClient 0: Sent 3 to Server
+StudentClient 0: Sent 4 to Server
+StudentClient 3: Sent 3 to Server
+StudentClient 3: Sent 4 to Server
+StudentClient: server says There is a connection to the server.
+StudentClient 1: Sent 0 to Server
+StudentClient 1: Sent 1 to Server
+StudentClient 1: Sent 2 to Server
+StudentClient 1: Sent 3 to Server
+StudentClient 1: Sent 4 to Server
+StudentClient: server says There is a connection to the server.
+StudentClient 2: Sent 0 to Server
+StudentClient 2: Sent 1 to Server
+StudentClient 2: Sent 2 to Server
+StudentClient 2: Sent 3 to Server
+StudentClient 2: Sent 4 to Server
+Creating socket to 'localhost' on port 81
+Teacher: server says  There is a connection to the server.
+TeacherClient: Sent Method 0 to Server
+TeacherClient: Sent Method 1 to Server
+TeacherClient: Sent Method 2 to Server
+TeacherClient: Sent Method 3 to Server
+TeacherClient: Sent Method 4 to Server
