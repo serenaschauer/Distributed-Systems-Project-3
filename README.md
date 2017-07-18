@@ -1,5 +1,5 @@
 # Distributed-Systems-Project-3
-Remote Procedure Calls Project -- Server-Client
+Remote Procedure Calls Project 
 
 Run Server and Client on two separate windows on the local machine.
 First run Server, then Client
